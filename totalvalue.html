@@ -7,7 +7,8 @@ var order = {
     subTotal:25000,
     taxAmount:490,
     total : function() {
-        document.write(order.subTotal + order.taxAmount)
+        document.write(order.subTotal + order.taxAmount);
+        console.log("The total amount is " +order.subTotal+order.taxAmount);
     }
 } </script><h2>The subtotal is</h2><h2><script>
 order.total();
