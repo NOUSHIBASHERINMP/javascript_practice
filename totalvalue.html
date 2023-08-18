@@ -1,0 +1,15 @@
+<html><h1>It Is Showing Subtotal</h1>
+<script>
+var order = {
+    orderNumber:10011,
+    customerName:'Vineesh',
+    customerMobile:'+911222111',
+    subTotal:25000,
+    taxAmount:490,
+    total : function() {
+        document.write(order.subTotal + order.taxAmount)
+    }
+} </script><h2>The subtotal is</h2><h2><script>
+order.total();
+</script>
+</html>
