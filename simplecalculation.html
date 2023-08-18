@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <h1>THE SIMPLE CALCULATION TRY</h1>
+  <p>First Number <input type="text" id="fName" /><br /></p>
+  <p>Second Number <input type="text" id="sName" /><br /></p>
+  <button onclick="addition()">SUM</button><br><br>
+  <label id="result" ></label>
+  <script>
+    function addition() {
+      var first = document.getElementById("fName");
+      console.log(first.value)
+      var second = document.getElementById("sName");
+      console.log(second.value);
+      var f = parseInt(first.value);
+      var s = parseInt(second.value);
+      var sum = f+s ;
+      document.getElementById("result").innerText = sum ;
+      
+    }
+
+    
+  </script>
+  
+</html>
