@@ -1,18 +1,25 @@
 <html>
-<script>
-    function squarecalculation(a){
-        var square = a*a ;
-        return square ;
+  <script>
+    function squarecalculation(a) {
+      var square = a * a;
+      console.log(square);
+      return square;
     }
-    
-    console.log("square Of 5 Is "+ squarecalculation(5))
-    console.log("square Of 8 Is "+squarecalculation(8))
-    </script>
-    <h1>IT IS CALCULATING SQUARE OF NUMBER
-        <h2>The Square of 9 Is </h2>
-    
-</h1><script>
-document.write(squarecalculation(9)) ;
-alert("The Square Of 21 Is "+ squarecalculation(21))</script>
-
+    var five = squarecalculation(5);
+    var eight = squarecalculation(8);
+    console.log("square Of 5 Is " + five);
+    console.log("square Of 8 Is " + eight);
+  </script>
+  <h1 style="color: blueviolet" onclick="squarecalculation(28)">
+    IT IS CALCULATING SQUARE OF NUMBER
+    <h2>
+      The Square of 9 Is<button onclick="squarecalculation(32)">
+        CLICK ME
+      </button>
+    </h2>
+  </h1>
+  <script>
+    document.write(squarecalculation(9));
+    alert("The Square Of 21 Is " + squarecalculation(21));
+  </script>
 </html>
